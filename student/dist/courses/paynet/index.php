@@ -1,7 +1,6 @@
 <?php
-$key_id = "rzp_test_tMHYRrkvDqv45b";
-// $key_id = "rzp_live_2l5FOPXQfSofky";
-$secret = "FOA4rn6tqc9cHAfU2T033EoS";
+$key_id = "razorpay key id"
+$secret = "razorpay key detail";
 
 $api = new Api($key_id, $secret);
 
@@ -23,7 +22,7 @@ $order  = $client->order->create([
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
 var options = {
-    "key": "rzp_live_2l5FOPXQfSofky", // Enter the Key ID generated from the Dashboard
+    "key": "", // Enter the Key ID generated from the Dashboard
     "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "name": "Acme Corp",
